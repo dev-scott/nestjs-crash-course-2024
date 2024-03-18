@@ -12,4 +12,7 @@ export class UsersService {
     this.fakeUsers.push(userData);
     return;
   }
+  fetchUserById(id: number) {
+    return { id, name: 'scott', email: 'sado@gmail.com' };
+  }
 }
